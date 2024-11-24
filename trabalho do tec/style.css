@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Coolvetica';
+    src: url(coolvetica\ rg.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(67, 107, 194);
+    background-color: pink;
+}
+.pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.formLogin {
+    font-family: 'Coolvetica';
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px;
+}
+
+.areaLogin img {
+    width: 420px;
+}
+
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+.formLogin input:focus {
+    border: 1px solid pink;
+}
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: rgb(224, 141, 155);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: rgb(224, 141, 155);
+
+}
+
+.mensagem-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+}
+
+.mensagem {
+    font-family: 'Coolvetica';
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.sucesso {
+    color: #7ac567;
+}
+
+.erro {
+    color: #ff474c;
+}
+
+.imagem-bemvindo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.imagem-erro {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
